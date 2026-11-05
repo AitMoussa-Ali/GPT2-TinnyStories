@@ -1,0 +1,8 @@
+{
+    "tokenizer": "gpt2",
+    "vocab_size": 50257,
+    "eos_token_id": 50256,
+    "dtype": "uint16",
+    "train_tokens": 19761984,
+    "validation_tokens": 2189944
+}
