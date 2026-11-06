@@ -27,7 +27,7 @@ dev = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["model*", "training*", "tokenizer*", "*"]
+include = ["model*", "training*", "tokenizer*", "*", "Test"]
 
 [tool.ruff]
 line-length = 100

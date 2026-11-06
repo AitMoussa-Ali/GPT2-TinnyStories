@@ -8,7 +8,7 @@ tokenizer = GPT2Tokenizer()
 class GPTConfig:
     # Tokenizer
     vocab_size: int = tokenizer.vocab_size 
-
+    batch_size: int = 16
     # Transformer architecture
     block_size: int = 256 # sequence length
     n_embd: int = 256 # Embedding dimension
